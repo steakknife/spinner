@@ -1,0 +1,32 @@
+spinner
+
+  Shows an animated cursor while waiting for a particular program to exit.
+
+
+Dead-simple example
+
+     { some && long && command ; } & ; spinner $!
+
+
+Arguments
+
+   pid  # of process to wait for.  Required.
+
+
+Exit codes
+
+   0    process we're waiting for ended, hurray.
+   1    pid never existed.
+ else   error
+
+
+Legal
+
+  Copyright 2012 Barry Allard
+
+  All rights reserved
+
+  MIT license
+
+
+spinner

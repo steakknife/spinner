@@ -1,0 +1,11 @@
+spinner
+
+
+Installation
+
+    make install
+
+
+Or, if you want to go somewhere else
+
+    make BIN=/usr/local/sbin install
