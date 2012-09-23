@@ -16,7 +16,7 @@ Arguments
 Exit codes
 
    0    process we're waiting for ended, hurray.
-   1    pid never existed.
+   1    pid never existed or argument was missing.
  else   error
 
 
